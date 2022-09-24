@@ -140,8 +140,76 @@
                 <li class="contacts-schedule-item">пн-пт: с 10:00 до 22:00</li>
                 <li class="contacts-schedule-item">сб-вс: с 10:00 до 19:00</li>
             </ul>
+            <a class="button" href="#">Как проехать</a>
+            <a class="button button-feedback" href="#"> Обратная связь</a>
+        </section>
+        <section class="appointment">
+            <h2 class="appointment-title">Записаться</h2>
+            <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони.</p> 
+            <form class="appointment-form" action="#" method="post">
+                <p class="appointment-form-date">
+                <label for="appointment-date">Дата</label>
+                <input type="text" id="appoint-data" name="appointment-name" placeholder="01.01.2020">
+                </p>
+                <p class="appointment-form-time">
+                    <label for="appointment-time">Время</label>
+                    <input type="text" id="appoint-time" name="appointment-time" placeholder="10:00">
+                </p>
+                <p class="appointment-form-phone">
+                        <label for="appointment-phone">Телефон</label>
+                        <input type="text" id="appoint-phone" name="appointment-phone" placeholder="+7 800 000-00-00">
+                </p>
+                <p class="appointment-form-name">
+                            <label for="appointment-name">Ваше имя</label>
+                            <input type="text" id="appoint-name" name="appointment-name" placeholder="Иван">
+                </p>
+                
+                <button class="button" type="submit">Записаться</button>
+            </form>
         </section>
     </main>
 
+    <footer class="page-footer">
+        <section class="footer-contacts">
+            <h2 class="visually-hidden">Контакты</h2>
+            <h3 class="contacts-subtitle">Барбершоп "Бородинский"</h3>
+            <address class="footer-contacts-address">
+            <p class="footer-contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+            <a class="footer-contacts-phone" href="tel:88005558628">8 800 555 86 28</a>
+             </address>
+        </section>
+        <section class="newsletter">
+            <h2 class="page-footer-title">Получайте лучшие предложения</h2>
+            <form class="newsletter-form" action="#" method="post">
+                <p class="newsletter-email">
+                    <label class="visually-hidden" for="newsletter-email">Email</label>
+                    <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+                </p>
+                <button class="button newsletter-email" type="submit">
+                    <span class="visually-hidden">Отправить</span>
+                </button>
+            </form>
+        </section>
+        <section class="footer-social">
+            <h2 class="page-footer-title">Давайте дружить</h2>
+            <ul class="footer-social>">
+                <li class="footer-social-list">
+                    <a class="button" href="#">
+                        <span class="visually hidden">Твиттер</span>
+                    </a>
+                </li>
+                <li class="footer-social-list">
+                    <a class="button" href="#">
+                        <span class="visually hidden">ВКонтакте</span>
+                    </a>
+                </li>
+                <li class="footer-social-list">
+                    <a class="button" href="#">
+                        <span class="visually hidden">Инстаграм</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </footer>
   </body>
 </html>
